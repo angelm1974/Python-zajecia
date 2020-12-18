@@ -1,6 +1,5 @@
-import moj_modul1 as m
- 
+from pakiet_Mariusza import moj_modul1
 
 
-m.pobierz_date()
+moj_modul1.pobierz_date()
  
