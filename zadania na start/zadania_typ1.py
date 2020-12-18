@@ -1,8 +1,24 @@
-
+import time
 # Korzystając z bibiloteki time oraz metody sleep():
 
 # Program 1
 # Napisz program, który odlicza od 1 do 5, wypisując liczby co sekundę. 
+
+# def count_down(number):
+#     for i in range(number):
+#         print(i+1)
+#         time.sleep(1)
+# count_down(5)
+
+# for a in range(1,6):
+#     time.sleep(1)
+#     print(a)
+    
+# x = 1
+# while x < 6:
+#     print(x)
+#     x +=1
+#     time.sleep(1)
 
 # Program 2
 # Napisz podobny program który odlicza od 1 do 5, wypisując liczby co sekundę. 
