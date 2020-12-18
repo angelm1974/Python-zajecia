@@ -1,0 +1,1 @@
+from .moj_modul2 import pobierz_czekaj21
