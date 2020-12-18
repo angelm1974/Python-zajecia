@@ -64,7 +64,7 @@ def pobierz_czekaj2():
 def pobierz_date():
     data= time.gmtime()
     print(data.tm_year,'-',data.tm_mon,'-',data.tm_mday)
-pobierz_date()
+
 
 # Program 5
 # Napisz program który przy pomocy bibiloteki time i funkcji strftime() pobiera aktualną datę
