@@ -1,6 +1,7 @@
 #Napisz kod generujący 2 liczby i spytaj użytkownika o ich różnicę
 # W przypadku powodzenia wyświetl komunikat
 import random
+from zipfile import *
 
 def losowe():
     a = random.randint(1,100)
@@ -65,4 +66,20 @@ def czytaj_losowy_plik():
         except:
             print(f"W folderze nie ma pliku liczbaCsv{p}.csv")
 
-czytaj_losowy_plik() 
+# czytaj_losowy_plik() 
+
+def dziel_dwie_liczby(a,b):
+    try:
+        wynik=a/b
+    except:
+        print("Coś poszło nie tak")
+
+# dziel_dwie_liczby(10,0)
+def pakuj():
+    with ZipFile("pliki_spakowane.zip","w") as z:
+        z.write('liczbaCsv.csv')
+        z.write('liczbaCsv0.csv')
+        z.write('liczbaCsv1.csv')
+        z.close()
+
+pakuj()
