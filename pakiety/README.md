@@ -20,3 +20,7 @@ Procedura tworzenia pakietu
 8. opublikuj pakiet     twine upload dist/*
 9. podczas publikacji jako użytkownika podaj __token__
 10. Hasło jest = wartości tokena
+
+lokalny test 
+pip install . 
+z poziomu folderu w którym jest setup.py
